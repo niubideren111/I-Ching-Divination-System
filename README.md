@@ -1,5 +1,10 @@
 # 🔮 I Ching Divination System | Zhouyi Fortune Telling | 易经占卜源码 | 周易八卦系统
+🔮 Online I Ching Divination System (Hexagram Generator)  
+🔮 Generate hexagrams instantly & interpret results  
 
+💡 Discover answers using ancient Chinese wisdom
+💡 使用易经智慧进行占卜解读
+💡 使用易經智慧進行占卜解析
 🔥 Online I Ching divination system (hexagram generator)
 🔥 Based on Zhouyi / Bagua / Yin-Yang / Five Elements
 🔥 Supports real-time fortune telling & analysis
@@ -27,7 +32,27 @@ This project is a complete **I Ching (Zhouyi) Divination System**, combining tra
 * 📊 Multiple divination methods（多种占卜方式）
 * 🌐 Web-based system（网页系统）
 
----
+## 🔮 Example Result | 占卜示例 | 占卜示例
+
+**Question:** Should I start a new project?  
+**Hexagram:** ☰☷ (Heaven over Earth)  
+**Interpretation:** A good time to act with caution and planning  
+
+👉 Demonstrates real divination output  
+👉 展示真实占卜结果  
+👉 展示真實占卜結果  
+
+## 🤖 AI Extension | AI扩展 | AI擴展
+
+This system can be integrated with AI (ChatGPT / LLM) to build:
+
+- AI fortune teller  
+- Smart divination assistant  
+- Interactive oracle system  
+
+👉 Combine ancient wisdom with modern AI  
+👉 结合AI实现智能占卜  
+👉 結合AI打造智能占卜  
 
 ## 💰 Use Cases | 使用场景 | 使用場景
 
@@ -93,4 +118,12 @@ iching oracle
 online divination tool
 易经占卜源码
 周易八卦系统
+
+## 🔍 More Keywords
+
+online divination tool  
+i ching oracle  
+hexagram generator online  
+ai fortune telling  
+spiritual app  
 
