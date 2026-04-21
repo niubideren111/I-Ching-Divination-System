@@ -78,8 +78,12 @@ This system can be integrated with AI (ChatGPT / LLM) to build:
 * ✔ Suitable for real product development
 * ✔ Expandable (AI / API / SaaS)
 
----
+## 📞 Contact | 联系方式 | 聯絡方式
 
+* Telegram: @fox_lovemyself
+* Email:zyue02561@gmail.com
+
+💬 Fast response within 24h
 ## 📸 Demo | 展示 | 展示
 
 <img width="2484" height="1353" alt="屏幕截图 2024-10-29 114634" src="https://github.com/user-attachments/assets/6b5a7fad-40c4-4407-9590-723ca32e5d75" />
@@ -94,9 +98,6 @@ This system can be integrated with AI (ChatGPT / LLM) to build:
 
 ---
 
-## 📞 Contact | 联系方式 | 聯絡方式
-
-* Telegram: @fox_lovemyself
 
 ---
 
