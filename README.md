@@ -182,7 +182,7 @@ async function aiInterpretation(hexagramData) {
     });
     return await response.json();
 }
-
+```bash
 ---
 ❓ 常见问题
 Q: 如何将 Excel/Word 数据转换为 JSON？
