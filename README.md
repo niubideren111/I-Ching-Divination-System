@@ -182,9 +182,9 @@ async function aiInterpretation(hexagramData) {
     });
     return await response.json();
 }
-```bash
+
 ---
-❓ 常见问题
+### ❓ 常见问题
 Q: 如何将 Excel/Word 数据转换为 JSON？
 bash
 # 使用 Python 转换
