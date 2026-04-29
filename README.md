@@ -111,7 +111,7 @@ bash
 
 # 2. 等待1-2分钟，访问
 #    https://your-username.github.io/I-Ching-Divination-System/
-
+---
 
 🧠 算法说明
 1. 六爻起卦算法
