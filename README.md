@@ -113,58 +113,6 @@ npx serve .
 #    https://your-username.github.io/I-Ching-Divination-System/index.html
 
 
-🧠 算法说明
-1. 六爻起卦算法
-javascript
-// 示例：生成随机阴阳爻（49蓍草法简化版）
-function generateLine() {
-    // 随机生成老阴(6)、少阳(7)、少阴(8)、老阳(9)
-    // 6和8为阴爻（--），7和9为阳爻（—）
-    const result = [6, 7, 8, 9][Math.floor(Math.random() * 4)];
-    return {
-        type: result === 6 || result === 8 ? 'yin' : 'yang',
-        changing: result === 6 || result === 9,  // 老阴老阳为动爻
-        value: result
-    };
-}
-2. 卦象转换算法
-卦名	上卦	下卦	二进制编码
-乾为天	乾☰	乾☰	111111
-坤为地	坤☷	坤☷	000000
-屯	坎☵	震☳	010001
-3. 五行生克关系
-
-相生：木 → 火 → 土 → 金 → 水 → 木
-相克：木 → 土 → 水 → 火 → 金 → 木
-4. 天干地支算法
-十天干：甲、乙、丙、丁、戊、己、庚、辛、壬、癸
-
-十二地支：子、丑、寅、卯、辰、巳、午、未、申、酉、戌、亥
-
-六合：子丑合、寅亥合、卯戌合、辰酉合、巳申合、午未合
-
-
-🔧 自定义扩展
-添加新的起卦方式
-在 common.js 中添加新函数：
-
-javascript
-// 自定义起卦方法
-function customDivinationMethod() {
-    // 实现您的起卦逻辑
-    return hexagramResult;
-}
-集成 AI 助手（ChatGPT等）
-javascript
-// 使用 AI 进行占卜解读
-async function aiInterpretation(hexagramData) {
-    const response = await fetch('YOUR_API_ENDPOINT', {
-        method: 'POST',
-        body: JSON.stringify(hexagramData)
-    });
-    return await response.json();
-}
-
 ---
 ### ❓ 常见问题
 Q: 如何将 Excel/Word 数据转换为 JSON？
