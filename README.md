@@ -85,7 +85,7 @@
 
 ### 本地运行（5秒启动）
 
-```bash
+
 # 1. 克隆仓库
 git clone https://github.com/niubideren111/I-Ching-Divination-System.git
 cd I-Ching-Divination-System
@@ -110,7 +110,7 @@ npx serve .
 #    - 点击 Save
 
 # 2. 等待1-2分钟，访问
-#    https://your-username.github.io/I-Ching-Divination-System/
+#    https://your-username.github.io/I-Ching-Divination-System/index.html
 
 
 🧠 算法说明
@@ -133,7 +133,7 @@ function generateLine() {
 坤为地	坤☷	坤☷	000000
 屯	坎☵	震☳	010001
 3. 五行生克关系
-text
+
 相生：木 → 火 → 土 → 金 → 水 → 木
 相克：木 → 土 → 水 → 火 → 金 → 木
 4. 天干地支算法
@@ -143,7 +143,6 @@ text
 
 六合：子丑合、寅亥合、卯戌合、辰酉合、巳申合、午未合
 
-详细算法请参阅 docs/algorithms.md（待补充）
 
 🔧 自定义扩展
 添加新的起卦方式
@@ -165,7 +164,7 @@ async function aiInterpretation(hexagramData) {
     });
     return await response.json();
 }
----
+
 ---
 ### ❓ 常见问题
 Q: 如何将 Excel/Word 数据转换为 JSON？
