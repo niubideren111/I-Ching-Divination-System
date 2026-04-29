@@ -116,11 +116,6 @@ npx serve .
 
 ---
 ### ❓ 常见问题
-Q: 如何将 Excel/Word 数据转换为 JSON？
-bash
-# 使用 Python 转换
-pip install pandas openpyxl
-python scripts/convert_data.py
 Q: 占卜结果是随机的吗？
 A: 是的。按传统周易理论，起卦过程模拟随机性（如掷钱币、分蓍草），本项目使用加密安全的随机数生成器。
 
@@ -130,7 +125,7 @@ A: 本项目采用 MIT 许可证，允许商业使用。但请您遵守各地法
 Q: 如何贡献卦辞解释内容？
 A: 欢迎完善 data/interpretations.json 文件，提交 Pull Request 即可。
 
-🤝 贡献指南
+### 🤝 贡献指南
 欢迎贡献代码、完善文档或报告问题！
 
 Fork 本仓库
@@ -145,7 +140,7 @@ Fork 本仓库
 
 详细规范请参阅 CONTRIBUTING.md
 
-⚠️ 免责声明
+### ⚠️ 免责声明
 本项目基于传统文化研究目的开发：
 
 🔮 占卜结果仅供娱乐和学术参考
@@ -156,10 +151,10 @@ Fork 本仓库
 
 🚫 禁止用于任何形式的诈骗、迷信宣传或非法活动
 
-📜 许可证
+### 📜 许可证
 本项目采用 MIT License 开源许可证。
 
-🌟 Star History
+### 🌟 Star History
 如果这个项目对您有帮助，请点击右上角 ⭐ 支持一下！
 
 
