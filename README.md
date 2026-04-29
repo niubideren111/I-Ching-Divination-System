@@ -1,90 +1,63 @@
-# 🔮 I Ching Divination System | Zhouyi Fortune Telling | 易经占卜源码 | 周易八卦系统
-🔮 Online I Ching Divination System (Hexagram Generator)  
-🔮 Generate hexagrams instantly & interpret results  
+# 🔮 I Ching Divination System | 周易易经占卜系统
 
-💡 Discover answers using ancient Chinese wisdom
-💡 使用易经智慧进行占卜解读
-💡 使用易經智慧進行占卜解析
-🔥 Online I Ching divination system (hexagram generator)
-🔥 Based on Zhouyi / Bagua / Yin-Yang / Five Elements
-🔥 Supports real-time fortune telling & analysis
-🔥 Web-based interactive system
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Online Demo](https://img.shields.io/badge/demo-online-brightgreen.svg)](https://your-github-username.github.io/I-Ching-Divination-System)
 
-💡 Generate hexagrams instantly and interpret destiny using ancient Chinese wisdom
+> 一个基于传统周易文化的开源占卜系统 | An open-source I Ching divination system based on traditional Zhouyi culture
+
+**[在线演示 | Online Demo](https://your-github-username.github.io/I-Ching-Divination-System)** | **[快速开始](#-快速开始)** | **[算法说明](#-算法说明)**
 
 ---
 
-## 🚀 Introduction | 项目介绍 | 專案介紹
+## 📑 目录
 
-This project is a complete **I Ching (Zhouyi) Divination System**, combining traditional Chinese metaphysics with modern programming.
-
-本项目是一套完整的**周易易经占卜系统源码**，融合八卦、阴阳五行等算法。
-
-本專案為完整的**周易占卜系統源碼**，結合八卦與陰陽五行理論。
-
----
-
-## ✨ Features | 功能特点 | 功能特色
-
-* 🔮 Hexagram generator（起卦系统）
-* 🔄 Changing lines analysis（变卦分析）
-* ☯ Yin-Yang & Five Elements（阴阳五行）
-* 📊 Multiple divination methods（多种占卜方式）
-* 🌐 Web-based system（网页系统）
-
-## 🔮 Example Result | 占卜示例 | 占卜示例
-
-**Question:** Should I start a new project?  
-**Hexagram:** ☰☷ (Heaven over Earth)  
-**Interpretation:** A good time to act with caution and planning  
-
-👉 Demonstrates real divination output  
-👉 展示真实占卜结果  
-👉 展示真實占卜結果  
-
-## 🤖 AI Extension | AI扩展 | AI擴展
-
-This system can be integrated with AI (ChatGPT / LLM) to build:
-
-- AI fortune teller  
-- Smart divination assistant  
-- Interactive oracle system  
-
-👉 Combine ancient wisdom with modern AI  
-👉 结合AI实现智能占卜  
-👉 結合AI打造智能占卜  
-
-## 💰 Use Cases | 使用场景 | 使用場景
-
-* Fortune telling app（占卜应用）
-* I Ching study tool（学习工具）
-* Spiritual / metaphysics platform（玄学平台）
-* AI divination system（AI占卜系统）
+- [简介](#-简介)
+- [功能特性](#-功能特性)
+- [在线演示](#-在线演示)
+- [快速开始](#-快速开始)
+- [项目结构](#-项目结构)
+- [算法说明](#-算法说明)
+- [自定义扩展](#-自定义扩展)
+- [常见问题](#-常见问题)
+- [贡献指南](#-贡献指南)
+- [免责声明](#-免责声明)
+- [许可证](#-许可证)
 
 ---
 
-## 📦 Tech Stack | 技术架构 | 技術架構
+## 📖 简介
 
-* JavaScript / Python / C++
-* Web interface
-* Algorithm-based divination engine
+本项目是一个基于**周易（易经）** 传统文化的开源占卜系统，实现了六爻起卦、变卦分析、阴阳五行等核心算法。项目旨在：
+
+- 📚 为传统文化爱好者提供学习工具
+- 🔬 探索古典哲学与现代编程的结合
+- 🧪 为学术研究提供可验证的算法实现
+
+> 🎯 **项目定位**：开源研究项目，仅供学习交流和文化传播使用。
 
 ---
 
-## 🎯 Why This Project | 为什么选择 | 為什麼選擇
+## ✨ 功能特性
 
-* ✔ Combines multiple Chinese metaphysics systems
-* ✔ Not just simple hexagram generator
-* ✔ Suitable for real product development
-* ✔ Expandable (AI / API / SaaS)
+| 模块 | 功能说明 |
+|------|----------|
+| 🔮 **六爻起卦** | 支持传统蓍草法、金钱卦等多种起卦方式 |
+| 🔄 **变卦分析** | 自动计算动爻、变卦及本卦、互卦、变卦关系 |
+| ☯ **阴阳五行** | 集成天干地支、五行生克、刑冲合害分析 |
+| 🌐 **网页界面** | 纯前端实现，无需后端服务器即可运行 |
+| 📱 **响应式设计** | 支持PC端和移动端访问 |
+| 🧠 **AI扩展接口** | 预留与LLM（ChatGPT等）集成的API结构 |
 
-## 📞 Contact | 联系方式 | 聯絡方式
+---
 
-* Telegram: @fox_lovemyself
-* Email:zyue02561@gmail.com
+## 🌐 在线演示
 
-💬 Fast response within 24h
-## 📸 Demo | 展示 | 展示
+访问在线演示站点，无需安装即可体验：
+
+
+
+### 演示截图
 
 <img width="2484" height="1353" alt="屏幕截图 2024-10-29 114634" src="https://github.com/user-attachments/assets/6b5a7fad-40c4-4407-9590-723ca32e5d75" />
 <img width="2471" height="1381" alt="屏幕截图 2024-10-29 114624" src="https://github.com/user-attachments/assets/28e6c741-8b36-4422-9d45-1987a6ed7e7a" />
@@ -96,35 +69,175 @@ This system can be integrated with AI (ChatGPT / LLM) to build:
 <img width="2306" height="1369" alt="屏幕截图 2024-10-29 114720" src="https://github.com/user-attachments/assets/1c159bac-c008-4506-ae83-bc7967472654" />
 <img width="2427" height="1398" alt="屏幕截图 2024-10-29 114655" src="https://github.com/user-attachments/assets/8694da88-63b7-42f3-a4e6-d379b2ff1572" />
 
+
+## 📞 Contact | 联系方式 | 聯絡方式
+
+* Telegram: @fox_lovemyself
+* Email:zyue02561@gmail.com
+
+💬 Fast response within 24h
+
 ---
 
-
 ---
 
-## ⚠️ Disclaimer | 声明 | 聲明
+## 🚀 快速开始
 
-For educational and research purposes only.
+### 本地运行（5秒启动）
 
----
+```bash
+# 1. 克隆仓库
+git clone https://github.com/niubideren111/I-Ching-Divination-System.git
+cd I-Ching-Divination-System
 
-## 🔍 SEO Keywords
+# 2. 启动本地服务器（任选一种方式）
 
-i ching divination
-zhouyi divination
-hexagram generator
-fortune telling app
-bagua system
-yin yang five elements
-iching oracle
-online divination tool
-易经占卜源码
-周易八卦系统
+# 方式一：使用 Python（推荐）
+python -m http.server 8080
 
-## 🔍 More Keywords
+# 方式二：使用 Node.js（需安装 npx）
+npx serve .
 
-online divination tool  
-i ching oracle  
-hexagram generator online  
-ai fortune telling  
-spiritual app  
+# 方式三：使用 VS Code Live Server 插件
+
+# 3. 打开浏览器访问
+# http://localhost:8080
+部署到 GitHub Pages（免费托管）
+bash
+# 1. 在仓库 Settings > Pages 中
+#    - Source 选择 "main" 分支
+#    - 文件夹选择 "/ (root)"
+#    - 点击 Save
+
+# 2. 等待1-2分钟，访问
+#    https://your-username.github.io/I-Ching-Divination-System/
+📁 项目结构
+text
+I-Ching-Divination-System/
+├── index.html              # 主页面
+├── css/                    # 样式文件（如有）
+├── js/
+│   ├── common.js           # 核心工具函数
+│   ├── utils.js            # 辅助函数
+│   ├── canvas2image.js     # 图像导出功能
+│   └── timezone.js         # 时区处理
+├── data/
+│   ├── wuxing_values.json  # 五行数值数据（原Excel转换后）
+│   └── ganzhi_data.json    # 干支序数据（原PDF转换后）
+├── docs/                   # 算法文档
+├── tests/                  # 单元测试
+├── LICENSE
+└── README.md
+数据格式说明：原始项目中的 .xlsx 和 .docx 文件已转换为 JSON 格式，便于程序读取和版本控制。
+
+🧠 算法说明
+1. 六爻起卦算法
+javascript
+// 示例：生成随机阴阳爻（49蓍草法简化版）
+function generateLine() {
+    // 随机生成老阴(6)、少阳(7)、少阴(8)、老阳(9)
+    // 6和8为阴爻（--），7和9为阳爻（—）
+    const result = [6, 7, 8, 9][Math.floor(Math.random() * 4)];
+    return {
+        type: result === 6 || result === 8 ? 'yin' : 'yang',
+        changing: result === 6 || result === 9,  // 老阴老阳为动爻
+        value: result
+    };
+}
+2. 卦象转换算法
+卦名	上卦	下卦	二进制编码
+乾为天	乾☰	乾☰	111111
+坤为地	坤☷	坤☷	000000
+屯	坎☵	震☳	010001
+3. 五行生克关系
+text
+相生：木 → 火 → 土 → 金 → 水 → 木
+相克：木 → 土 → 水 → 火 → 金 → 木
+4. 天干地支算法
+十天干：甲、乙、丙、丁、戊、己、庚、辛、壬、癸
+
+十二地支：子、丑、寅、卯、辰、巳、午、未、申、酉、戌、亥
+
+六合：子丑合、寅亥合、卯戌合、辰酉合、巳申合、午未合
+
+详细算法请参阅 docs/algorithms.md（待补充）
+
+🔧 自定义扩展
+添加新的起卦方式
+在 common.js 中添加新函数：
+
+javascript
+// 自定义起卦方法
+function customDivinationMethod() {
+    // 实现您的起卦逻辑
+    return hexagramResult;
+}
+集成 AI 助手（ChatGPT等）
+javascript
+// 使用 AI 进行占卜解读
+async function aiInterpretation(hexagramData) {
+    const response = await fetch('YOUR_API_ENDPOINT', {
+        method: 'POST',
+        body: JSON.stringify(hexagramData)
+    });
+    return await response.json();
+}
+修改界面主题
+编辑 style.css 或通过浏览器开发者工具调试。
+
+❓ 常见问题
+Q: 如何将 Excel/Word 数据转换为 JSON？
+bash
+# 使用 Python 转换
+pip install pandas openpyxl
+python scripts/convert_data.py
+Q: 占卜结果是随机的吗？
+A: 是的。按传统周易理论，起卦过程模拟随机性（如掷钱币、分蓍草），本项目使用加密安全的随机数生成器。
+
+Q: 可以用于商业产品吗？
+A: 本项目采用 MIT 许可证，允许商业使用。但请您遵守各地法律法规，不得用于欺诈或虚假宣传等违法行为。
+
+Q: 如何贡献卦辞解释内容？
+A: 欢迎完善 data/interpretations.json 文件，提交 Pull Request 即可。
+
+🤝 贡献指南
+欢迎贡献代码、完善文档或报告问题！
+
+Fork 本仓库
+
+创建特性分支 (git checkout -b feature/amazing-feature)
+
+提交更改 (git commit -m 'feat: add some amazing feature')
+
+推送到分支 (git push origin feature/amazing-feature)
+
+创建 Pull Request
+
+详细规范请参阅 CONTRIBUTING.md
+
+⚠️ 免责声明
+本项目基于传统文化研究目的开发：
+
+🔮 占卜结果仅供娱乐和学术参考
+
+📚 不应作为人生决策、投资、医疗或法律行为的依据
+
+🌐 用户自行承担使用本项目的责任
+
+🚫 禁止用于任何形式的诈骗、迷信宣传或非法活动
+
+📜 许可证
+本项目采用 MIT License 开源许可证。
+
+🌟 Star History
+如果这个项目对您有帮助，请点击右上角 ⭐ 支持一下！
+
+
+
+
+
+
+
+
+
 
