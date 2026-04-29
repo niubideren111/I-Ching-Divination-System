@@ -111,24 +111,7 @@ bash
 
 # 2. 等待1-2分钟，访问
 #    https://your-username.github.io/I-Ching-Divination-System/
-📁 项目结构
-text
-I-Ching-Divination-System/
-├── index.html              # 主页面
-├── css/                    # 样式文件（如有）
-├── js/
-│   ├── common.js           # 核心工具函数
-│   ├── utils.js            # 辅助函数
-│   ├── canvas2image.js     # 图像导出功能
-│   └── timezone.js         # 时区处理
-├── data/
-│   ├── wuxing_values.json  # 五行数值数据（原Excel转换后）
-│   └── ganzhi_data.json    # 干支序数据（原PDF转换后）
-├── docs/                   # 算法文档
-├── tests/                  # 单元测试
-├── LICENSE
-└── README.md
-数据格式说明：原始项目中的 .xlsx 和 .docx 文件已转换为 JSON 格式，便于程序读取和版本控制。
+
 
 🧠 算法说明
 1. 六爻起卦算法
@@ -182,7 +165,7 @@ async function aiInterpretation(hexagramData) {
     });
     return await response.json();
 }
-
+---
 ---
 ### ❓ 常见问题
 Q: 如何将 Excel/Word 数据转换为 JSON？
