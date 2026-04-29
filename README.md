@@ -182,9 +182,8 @@ async function aiInterpretation(hexagramData) {
     });
     return await response.json();
 }
-修改界面主题
-编辑 style.css 或通过浏览器开发者工具调试。
 
+---
 ❓ 常见问题
 Q: 如何将 Excel/Word 数据转换为 JSON？
 bash
