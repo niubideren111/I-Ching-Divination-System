@@ -103,7 +103,7 @@ npx serve .
 # 3. 打开浏览器访问
 # http://localhost:8080
 部署到 GitHub Pages（免费托管）
-bash
+
 # 1. 在仓库 Settings > Pages 中
 #    - Source 选择 "main" 分支
 #    - 文件夹选择 "/ (root)"
@@ -111,7 +111,7 @@ bash
 
 # 2. 等待1-2分钟，访问
 #    https://your-username.github.io/I-Ching-Divination-System/
----
+
 
 🧠 算法说明
 1. 六爻起卦算法
