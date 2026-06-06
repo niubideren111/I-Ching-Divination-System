@@ -1,4 +1,4 @@
-# 🔮 I Ching Divination System | 周易易经占卜系统|周易排盘源码|紫微斗数源码|周易源码
+# 🔮 I Ching Divination System | 周易易经占卜系统|周易排盘源码|紫微斗数源码|周易源码|易经源码
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
