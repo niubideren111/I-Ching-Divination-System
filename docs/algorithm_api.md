@@ -395,6 +395,6 @@ html
 如 API 对接中遇到问题，可通过以下方式联系我们：
 
 联系方式	账号
-Telegram	@alibabama401
-Email	ttpoker733@gmail.com
+ - **Telegram**: @fox_lovemyself
+- **Email**: zyue02561@gmail.com
 *最后更新：2026-06-12 | 版本：v1.0*
