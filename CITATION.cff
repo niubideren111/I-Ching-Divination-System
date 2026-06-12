@@ -3,11 +3,11 @@ message: "If you use this divination system for research or reference, please ci
 title: "Yi-Jing Fortune Telling Source Code"
 version: 1.0.0
 date-released: 2026-06-02
-type: software
+type: software  
 authors:
-  - name: "pokercode88"
-    email: "ttpoker733@gmail.com"
-repository: "https://github.com/pokercode88/Yi-Jing-Fortune-Telling-Source"
+  - name: "niubideren111"
+    email: "zyue02561@gmail.com"
+repository: "https://github.com/niubideren111/I-Ching-Divination-System"
 keywords:
   - 周易排盘
   - 八字排盘
