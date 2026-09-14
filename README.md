@@ -1,4 +1,4 @@
-# 🔮 I Ching Divination System | 周易排盘|周易易经占卜系统|周易排盘源码|紫微斗数源码|周易源码|易经源码|奇门遁甲|七政四余
+# 🔮 I Ching Divination System | 周易八字排盘源码｜周易源码|紫微斗数源码|易经|奇门遁甲|七政四余
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -59,59 +59,24 @@
 
 ### 演示截图
 
-<img width="2484" height="1353" alt="屏幕截图 2024-10-29 114634" src="https://github.com/user-attachments/assets/6b5a7fad-40c4-4407-9590-723ca32e5d75" />
-<img width="2471" height="1381" alt="屏幕截图 2024-10-29 114624" src="https://github.com/user-attachments/assets/28e6c741-8b36-4422-9d45-1987a6ed7e7a" />
-<img width="2540" height="1381" alt="屏幕截图 2024-10-29 114423" src="https://github.com/user-attachments/assets/274d3b6e-6e90-4862-8597-d2b2f7c457af" />
-<img width="2539" height="1369" alt="屏幕截图 2025-04-18 194842" src="https://github.com/user-attachments/assets/b2650f4a-3650-441f-9f21-dd71c319deb3" />
-<img width="2471" height="1285" alt="屏幕截图 2025-03-15 113242" src="https://github.com/user-attachments/assets/fea28aee-ac91-4280-bccc-5892c4236464" />
-<img width="2522" height="1364" alt="屏幕截图 2024-10-29 115350" src="https://github.com/user-attachments/assets/ec45b7c4-9da8-4935-aa50-7b7a5414856c" />
-<img width="2446" height="1292" alt="屏幕截图 2024-10-29 115251" src="https://github.com/user-attachments/assets/cc84bf8b-ce17-4124-957c-9ba05d3be8f4" />
-<img width="2306" height="1369" alt="屏幕截图 2024-10-29 114720" src="https://github.com/user-attachments/assets/1c159bac-c008-4506-ae83-bc7967472654" />
-<img width="2427" height="1398" alt="屏幕截图 2024-10-29 114655" src="https://github.com/user-attachments/assets/8694da88-63b7-42f3-a4e6-d379b2ff1572" />
+![周易八字排盘与干支信息页面](docs/assets/seo/i-ching-divination-system-01.jpg)
+![大六壬排盘表格页面](docs/assets/seo/i-ching-divination-system-02.jpg)
+![流年信息与排盘数据列表](docs/assets/seo/i-ching-divination-system-03.jpg)
+![八字排盘信息汇总页面](docs/assets/seo/i-ching-divination-system-04.jpg)
 
 
-## 📞 Contact | 联系方式 | 聯絡方式
 
-* Telegram: @fox_lovemyself
-* 
-* Email:zyue02561@gmail.com
+## 相关项目
 
-💬 Fast response within 24h
+- [Chess-and-Card-Game-Product-Design-Copy](https://github.com/niubideren111/Chess-and-Card-Game-Product-Design-Copy)
 
----
+## 项目咨询
 
----
-
-## 🚀 快速开始
-
-### 本地运行（5秒启动）
+- Telegram：[fox_lovemyself](https://t.me/fox_lovemyself)
+- GitHub：[周易八字排盘源码](https://github.com/niubideren111/I-Ching-Divination-System)
 
 
-# 1. 克隆仓库
-git clone https://github.com/niubideren111/I-Ching-Divination-System.git
-cd I-Ching-Divination-System
 
-# 2. 启动本地服务器（任选一种方式）
-
-# 方式一：使用 Python（推荐）
-python -m http.server 8080
-
-# 方式二：使用 Node.js（需安装 npx）
-npx serve .
-
-# 方式三：使用 VS Code Live Server 插件
-
-# 3. 打开浏览器访问
-# http://localhost:8080
-部署到 GitHub Pages（免费托管）
-
-# 1. 在仓库 Settings > Pages 中
-#    - Source 选择 "main" 分支
-#    - 文件夹选择 "/ (root)"
-#    - 点击 Save
-
-# 2. 等待1-2分钟，访问
-#    https://your-username.github.io/I-Ching-Divination-System/index.html
 
 
 ---
