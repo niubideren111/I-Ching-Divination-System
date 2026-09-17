@@ -1,4 +1,12 @@
-# 🔮 I Ching Divination System | 周易八字排盘源码｜周易源码|紫微斗数源码|易经|奇门遁甲|七政四余
+# 周易源码｜八字排盘、五行、紫微斗数、易经、奇门遁甲、七政四余|I Ching Divination System 
+
+> 中文简体 · 中文繁體 · English 多语言产品与源码资料
+
+[简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [English](README.en.md) · [产品页面](https://niubideren111.github.io/I-Ching-Divination-System/zh-cn/)
+
+以八字排盘网页为入口的周易开发资料，包含 JavaScript 公共函数、时区处理和截图导出文件。项目还展示大六壬、流年、七政四余等页面截图，便于了解排盘类产品的界面组织。
+
+**周易源码 · 八字排盘源码 · 易经源码 · JavaScript排盘**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -64,6 +72,17 @@
 ![流年信息与排盘数据列表](docs/assets/seo/i-ching-divination-system-03.jpg)
 ![八字排盘信息汇总页面](docs/assets/seo/i-ching-divination-system-04.jpg)
 
+
+## 公开源码与资料
+
+| 文件 | 说明 |
+|---|---|
+| [index.html](index.html) | 原有八字排盘网页 |
+| [common.js](common.js) | 公共 JavaScript 文件 |
+| [timezone.js](timezone.js) | 时区处理资料 |
+| [canvas2image.js](canvas2image.js) | 画布图片导出文件 |
+| [五行数值328.xlsx](%E4%BA%94%E8%A1%8C%E6%95%B0%E5%80%BC328.xlsx) | 五行数值表 |
+| [docs/algorithm_api.md](docs/algorithm_api.md) | 已有算法接口文档 |
 
 
 ## 相关项目
