@@ -6,6 +6,29 @@ A JavaScript Bazi chart reference with common utilities, timezone handling and i
 
 **I Ching source code · Bazi source code · Chinese astrology JavaScript · five elements chart**
 
+## 📖 Introduction
+
+This project is an open-source divination system based on **Zhouyi (I Ching)** traditional culture, implementing core algorithms such as Six Yao casting, changed hexagram analysis, and Yin-Yang Five Elements. The project aims to:
+
+- 📚 Provide a learning tool for traditional culture enthusiasts
+- 🔬 Explore the combination of classical philosophy and modern programming
+- 🧪 Provide verifiable algorithm implementations for academic research
+
+> 🎯 **Project Positioning**: Open-source research project, for learning, exchange, and cultural dissemination purposes only.
+
+---
+
+## ✨ Features
+
+| Module | Description |
+|------|----------|
+| 🔮 **Six Yao Casting** | Supports multiple casting methods such as traditional yarrow stalk method and coin method |
+| 🔄 **Changed Hexagram Analysis** | Automatically calculates moving lines, changed hexagrams, and the relationships between the original hexagram, mutual hexagram, and changed hexagram |
+| ☯ **Yin-Yang Five Elements** | Integrates Heavenly Stems and Earthly Branches, Five Elements generating/overcoming, punishment, clash, combination, and harm analysis |
+| 🌐 **Web Interface** | Pure front-end implementation, runs without a back-end server |
+| 📱 **Responsive Design** | Supports both PC and mobile access |
+| 🧠 **AI Extension Interface** | Reserved API structure for integration with LLMs (ChatGPT, etc.) |
+
 ## What this repository presents
 
 ### Bazi chart page
