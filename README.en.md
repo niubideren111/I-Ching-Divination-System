@@ -6,28 +6,40 @@ A JavaScript Bazi chart reference with common utilities, timezone handling and i
 
 **I Ching source code · Bazi source code · Chinese astrology JavaScript · five elements chart**
 
-## 📖 Introduction
+## Introduction
 
-This project is an open-source divination system based on **Zhouyi (I Ching)** traditional culture, implementing core algorithms such as Six Yao casting, changed hexagram analysis, and Yin-Yang Five Elements. The project aims to:
+This repository is a Zhouyi development reference whose public runnable entry point is a browser-based Bazi chart page. The root `index.html` accepts birth date, time and gender inputs and presents Four Pillars, Ten Gods, hidden stems, luck cycles, annual cycles and transition information. `common.js`, `utils.js`, `timezone.js` and `canvas2image.js` support shared logic, timezone handling and chart-image export.
 
-- 📚 Provide a learning tool for traditional culture enthusiasts
-- 🔬 Explore the combination of classical philosophy and modern programming
-- 🧪 Provide verifiable algorithm implementations for academic research
+The documentation also describes interface structures and product references for Zi Wei Dou Shu, Qi Men Dun Jia, Da Liu Ren and Seven Governors and Four Remainders. In the public file set, these extended systems are primarily documentation or screenshot material; treat an algorithm as implemented only when its referenced source is present.
 
-> 🎯 **Project Positioning**: Open-source research project, for learning, exchange, and cultural dissemination purposes only.
+## Features
 
----
+| Feature | Public implementation or reference scope |
+|---|---|
+| Four Pillars Bazi chart | Browser presentation of year, month, day and hour pillars |
+| Ten Gods and hidden stems | Information areas associated with each pillar |
+| Luck and annual cycles | UI and data presentation for cycles and transition timing |
+| Birth-data input | Date, time and gender inputs for chart generation |
+| Timezone support | Supporting timezone material in `timezone.js` |
+| Image export | Canvas image-export support in `canvas2image.js` |
+| Five Elements references | Numeric workbook, explanatory document and stem-branch PDF |
+| Zi Wei Dou Shu references | Interface and data-structure documentation in `docs/algorithm_api.md` |
+| Qi Men Dun Jia references | Documented time-chart, configuration and direction examples |
+| Seven Governors references | Documented planetary-chart data structures and product screenshots |
+| Da Liu Ren references | Product screenshots and extended-module documentation |
+| Static web deployment | HTML and JavaScript deployment through static hosting |
 
-## ✨ Features
+## Technical composition and public scope
 
-| Module | Description |
-|------|----------|
-| 🔮 **Six Yao Casting** | Supports multiple casting methods such as traditional yarrow stalk method and coin method |
-| 🔄 **Changed Hexagram Analysis** | Automatically calculates moving lines, changed hexagrams, and the relationships between the original hexagram, mutual hexagram, and changed hexagram |
-| ☯ **Yin-Yang Five Elements** | Integrates Heavenly Stems and Earthly Branches, Five Elements generating/overcoming, punishment, clash, combination, and harm analysis |
-| 🌐 **Web Interface** | Pure front-end implementation, runs without a back-end server |
-| 📱 **Responsive Design** | Supports both PC and mobile access |
-| 🧠 **AI Extension Interface** | Reserved API structure for integration with LLMs (ChatGPT, etc.) |
+| Layer | Material |
+|---|---|
+| Page | HTML, CSS and vanilla JavaScript Bazi chart page |
+| Utilities | Shared functions, date/timezone helpers and Canvas image export |
+| Data references | Five Elements values, stem-branch ordering and supporting documents |
+| Interface documentation | Bazi, Zi Wei Dou Shu, Qi Men Dun Jia and Seven Governors structures |
+| Visual references | Bazi, Da Liu Ren, annual-cycle and other chart screenshots |
+
+This project is suitable as a learning reference for traditional-culture chart pages, data structures and interface design. Calendar rules vary by timezone, true solar time, day-boundary convention and school. Validate results against authoritative calendars and test cases, and do not treat demonstration output as a basis for real-world decisions.
 
 ## What this repository presents
 
