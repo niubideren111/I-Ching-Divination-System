@@ -41,6 +41,18 @@
 | 接口文档 | 八字、紫微斗数、奇门遁甲、七政四余等数据结构示例 |
 | 展示资料 | 八字、大六壬、流年及其他排盘界面截图 |
 
+```mermaid
+flowchart LR
+  A[出生日期、时间、性别与时区] --> B[日期与时区辅助]
+  B --> C[四柱干支计算与页面逻辑]
+  C --> D[十神、藏干、大运与流年展示]
+  D --> E[HTML 排盘结果]
+  E --> F[Canvas 图片导出]
+  G[算法接口文档] -. 扩展模块参考 .-> C
+```
+
+该流程图描述公开八字网页和辅助文件能够证明的数据路径。紫微斗数、奇门遁甲、大六壬和七政四余在公开仓库中主要属于接口文档或截图资料，不应据此宣称所有算法均已完整实现。
+
 本项目适合作为传统文化排盘页面、数据结构和界面设计的学习参考。排盘规则涉及历法、时区、真太阳时、换日和流派差异，正式使用前需要用权威历书及测试样例复核，不应将展示结果视为现实决策依据。
 
 ## 项目重点
@@ -66,13 +78,11 @@ common.js、utils.js、timezone.js 与 canvas2image.js 提供可阅读的网页�
 
 ## 产品截图
 
-![周易八字排盘与干支信息页面](docs/assets/seo/i-ching-divination-system-01.jpg)
-
-![大六壬排盘表格页面](docs/assets/seo/i-ching-divination-system-02.jpg)
-
-![流年信息与排盘数据列表](docs/assets/seo/i-ching-divination-system-03.jpg)
-
-![八字排盘信息汇总页面](docs/assets/seo/i-ching-divination-system-04.jpg)
+| 八字与干支信息 | 大六壬界面参考 |
+|---|---|
+| ![周易八字排盘与干支信息页面](docs/assets/seo/i-ching-divination-system-01.jpg) | ![大六壬排盘表格页面](docs/assets/seo/i-ching-divination-system-02.jpg) |
+| **流年数据列表** | **八字信息汇总** |
+| ![流年信息与排盘数据列表](docs/assets/seo/i-ching-divination-system-03.jpg) | ![八字排盘信息汇总页面](docs/assets/seo/i-ching-divination-system-04.jpg) |
 
 ## 公开源码与资料
 
